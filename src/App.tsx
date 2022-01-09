@@ -4,6 +4,7 @@ import confetti from "canvas-confetti";
 import { Handlers, KeyMap } from "./types";
 
 function App(): JSX.Element {
+  
   //  colors to add in confetti
   const colors: string[] = ["#F50057", "#61dafb"];
 
@@ -13,16 +14,16 @@ function App(): JSX.Element {
 
   const handlers: Handlers = {
     keys: () => {
-      confetti({ particleCount: 150, spread: 180, colors: colors });
+      confetti({ particleCount: 150, spread: 180, colors });
     },
   };
 
   return (
-    <div className='app'>
+    <div className="app">
       <GlobalHotKeys keyMap={keyMap} handlers={handlers} />
-      <header className='header'>
-        <h1>Type "changworks"</h1>
-        <p>to experience the magic ✨🎊</p>
+      <header className="header">
+        <h1>Type `changworks`</h1>
+        <p>to experience the magic ✨🎊 </p>
       </header>
     </div>
   );

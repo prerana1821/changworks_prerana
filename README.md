@@ -1,10 +1,10 @@
 ## Assignment project for ChangWorks
 
-### Demo
+### **💻 Demo**
 
 [https://prerana-changworks.netlify.app](https://prerana-changworks.netlify.ap)
 
-### Instructions
+### **⚙️ Instructions**
 
 To run the project locally, follow these steps:
 
@@ -33,3 +33,15 @@ yarn start / npm run start
 ```
 
 You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.
+
+### **⚡ Lighthouse Report**
+
+![Image](./public/performance.png)
+
+### **💻 Built with**
+
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [react-hotkeys](https://www.npmjs.com/package/react-hotkeys): for handling key inputs
+- [canvas-confetti](https://www.npmjs.com/package/canvas-confetti): for animation
+- [Netlify](https://www.netlify.com/): for hosting

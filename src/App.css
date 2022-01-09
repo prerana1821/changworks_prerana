@@ -18,3 +18,7 @@ body {
   justify-content: center;
   color: white;
 }
+
+.header h1 {
+  margin: 0.5rem 0;
+}
