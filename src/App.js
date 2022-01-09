@@ -4,14 +4,15 @@ import confetti from 'canvas-confetti';
 
 function App() {
 
+  //  colors to add in confetti 
   const colors = ['#F50057', '#61dafb'];
 
   const keyMap = {
-    test: "c h a n g w o r k s",
+    keys: "c h a n g w o r k s",
   }
 
   const handlers = {
-    test: () => {
+    keys: () => {
       confetti({ particleCount: 150, spread: 180, colors: colors });
     }
   }
